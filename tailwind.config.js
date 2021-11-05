@@ -6,8 +6,8 @@ module.exports = {
       colors: {
         sprimary: '#174D4D',
         ssecondary: {
-          100:'#F8F9F9',
-          200:'#EDEDED',
+          100:'#E3E3E3',
+          200:'#3FB0AC',
         }        
       },
       fontFamily:{
