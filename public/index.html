@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="/tailwind.css">
 </head>
 <body class="text-gray-400 font-body bg-gray-100">
-    <div><!--content wrapper-->
-        <div>
+    <div class="grid md:grid-cols-3"><!--content wrapper-->
+        <div class="md:col-span-1">
             <nav>
                 <div>
                     <h1 class="font-bold uppercase p-4 border-gray-100 border-b">
@@ -34,7 +34,7 @@
                 </ul>
             </nav>
         </div><!--end nav-->
-        <main class="px-16 py-4">
+        <main class="px-16 py-4 md:col-span-2">
             <div class="flex justify-center md:justify-end">
                 <a href="#" class="text-sprimary">Login</a>
                 <a href="#" class="text-sprimary ml-2">SignUp</a>
@@ -44,7 +44,7 @@
             </header>
             <div>
                 <h4 class="text-gray-600 font-bold mt-12 pb-2 border-b border-gray-200">Latest Recipes</h4>
-                <div class="mt-8">
+                <div class="mt-8 grid lg:grid-cols-3 gap-10">
                     <!--Recipes go here-->
                     <div class="card">
                         <img src="/img/Nutrition-healthy.jpg" alt="Nutrition healthy" class="w-full h-32 sm:h-48 object-cover">
