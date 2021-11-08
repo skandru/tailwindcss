@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+## TailwindCSS
+You want to build great looking web pages, but you don't want to spend all day writing CSS.
+The problem with CSS frameworks is that they take too long to learn and use. They are also hard for designers who aren't developers themselves. 
+It's almost impossible for a designer or non-developer to make small changes without breaking something else in the process.
+TailwindCSS solves these problems by reducing the amount of code needed while still giving you complete control over your layouts and design elements. 
+TailwindCSS combined best practices into simple classes so that anyone can quickly implement them into their projects without needing any previous knowledge 
+of CSS preprocessors or front end development workflows. Our goal is not just faster development but better code as well!
 
-You can use the [editor on GitHub](https://github.com/skandru/tailwindcss/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+https://user-images.githubusercontent.com/1790940/140815938-e8a71a1b-dc06-4f2d-a2d2-d35d114b225d.mp4
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/skandru/tailwindcss/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
