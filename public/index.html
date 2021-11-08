@@ -51,8 +51,10 @@
         </div><!--end nav-->
         <main class="px-16 py-4 md:col-span-2 bg-gray-100">
             <div class="flex justify-center md:justify-end">
-                <a href="#" class="btn text-sprimary border-sprimary md:border-2 hover:bg-sprimary hover:text-white">Login</a>
-                <a href="#" class="btn text-sprimary ml-2 border-sprimary md:border-2 hover:bg-sprimary hover:text-white">SignUp</a>
+                <a href="#" class="btn text-sprimary border-sprimary 
+                md:border-2 hover:bg-sprimary hover:text-white transition ease-out duration-500">Login</a>
+                <a href="#" class="btn text-sprimary ml-2 border-sprimary 
+                md:border-2 hover:bg-sprimary hover:text-white transition ease-out duration-500">SignUp</a>
             </div>
             <header>
                 <h2 class="text-gray-600 text-4xl">Recipes</h2>
@@ -113,13 +115,41 @@
                             <span>25 mins</span>
                         </div>
                     </div>
+                    <div class="card hover:shadow-lg">
+                        <img src="/img/salmon-sockeye.jpg" alt="Salmon" class="w-full h-32 sm:h-48 object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">Salmon</span>
+                            <span class="block text-gray-500 text-sm">Recipe by Suri</span>
+                        </div>
+                        <div class="badge">
+                            <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            <span>20 mins</span>
+                        </div>
+                    </div>
+                    <div class="card hover:shadow-lg">
+                        <img src="/img/Rue-mars.jpg" alt="Ruemars" class="w-full h-32 sm:h-48 object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">Ruemars</span>
+                            <span class="block text-gray-500 text-sm">Recipe by Suri</span>
+                        </div>
+                        <div class="badge">
+                            <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            <span>35 mins</span>
+                        </div>
+                    </div>
                 </div>
                 <h4 class="text-gray-600 font-bold mt-12 pb-2 border-b border-gray-200">Popular Recipes</h4>
+                <br>
                 <div>
                     <!--Popular Recipes go here-->
                 </div>
                 <div class="flex justify-center">
-                    <div class="btn bg-ssecondary-100 text-red-300 hover:shadow-inner">Load More ...</div>
+                    <div class="btn bg-ssecondary-100 text-sprimary hover:shadow-inner
+                     transform hover:scale-125 hover:bg-opacity-50 transition ease-out duration-300">Load More</div>
                 </div>
             </div>
         </main>
